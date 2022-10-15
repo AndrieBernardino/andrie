@@ -111,7 +111,7 @@ header{
 	grid-template-columns: auto auto;
 	grid-column-gap: 5px;
 }
-@media only screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
 	.navBar{flex-flow: column; position: static;}
 	.mainpart{flex-flow: column;}
 	.img{grid-template-columns: auto;}
