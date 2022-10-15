@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Schoolbook;
+	box-sizing: border-box;
+}
+h1, p{margin: 20px 0;}
+header{
+	padding: 100px;
+	color: #31E1F7;
+	text-align: center;
+	background: url(Blue.jpg);
+	background-size: cover;
+	font-size: 30px;
+}
+.navBar{
+	display: flex;
+	background: #31E1F7;
+	top: 0;
+}
+.navBar a{
+	display: block;
+	text-decoration: none;
+	color: Blue;
+	text-align: center;
+	padding: 20px 30px;
+	transition: 0.3s;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navBar a:hover{
+	background: #87A2FB;
+	color: #31E1F7;
+}
+.Mainpart{
+	display: flex;
+}
+.sidepart{
+	flex: 25%;
+	padding: 15px;
+	background: #9C9EFE;
+    font-family: comic sans ms;
+    color: #361500;
+    box-sizing: border-box;
+}
+.main{
+	flex: 75%;
+	padding: 15px;
+	background: #0E3EDA;
+	font-family: Broadway;
+}
+.Andrie1{
+	padding: 15px;
+	color: white;
+	width: 300%;
+	height: 300%;
+	background-image: url(mypic.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.Andrie2{
+	padding: 15px;
+	color: white;
+	width: 300%;
+	height: 300%;
+	background-image: url(nice.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.Andrie3{
+	padding: 20px;
+	color: white;
+	width: 110%;
+	height: 150%;
+	background-image: url(family.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 25px 0;
+}
+.Andrie4{
+	padding: 15px;
+	color: white;
+	width: 100%;
+	background-image: url(mylolo.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 20px 0;
+}
+.Andrie5{
+	padding: 15px;
+	color: white;
+	width: 100%;
+	background-image: url(friends2.jpg);
+	background-size: cover;
+	margin: 20px 0;
+}
+.Andrie6{
+	padding: 15px;
+	color: white;
+	width: 100%;
+	background-image: url(friends.jpg);
+	background-size: cover;
+	margin: 20px 0;
+}
+.img{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 5px;
+}
+@media only screen and (max-width: 1200px){
+	.navBar{flex-flow: column; position: static;}
+	.mainpart{flex-flow: column;}
+	.img{grid-template-columns: auto;}
+}
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
